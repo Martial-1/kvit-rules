@@ -1,0 +1,790 @@
+{
+  "country" : {
+    "accounts" : {
+      "chart" : [
+        {
+          "name" : "Bank",
+          "number" : "1000",
+          "role" : "bank",
+          "type" : "asset"
+        },
+        {
+          "name" : "Cash",
+          "number" : "1010",
+          "role" : "cash",
+          "type" : "asset"
+        },
+        {
+          "name" : "Trade receivables",
+          "number" : "1100",
+          "role" : "receivables",
+          "type" : "asset"
+        },
+        {
+          "name" : "Customer payments withheld",
+          "number" : "1110",
+          "role" : "withheldPayments",
+          "type" : "asset"
+        },
+        {
+          "name" : "Prepaid expenses and accrued income",
+          "number" : "1200",
+          "role" : "prepaidExpenses",
+          "type" : "asset"
+        },
+        {
+          "name" : "Stock",
+          "number" : "1400",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Equipment and fixed assets",
+          "number" : "1500",
+          "role" : "fixedAssets",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Accumulated depreciation",
+          "number" : "1590",
+          "role" : "accumulatedDepreciation",
+          "type" : "asset"
+        },
+        {
+          "name" : "Tax account and VAT receivable",
+          "number" : "1600",
+          "type" : "asset"
+        },
+        {
+          "name" : "Trade payables",
+          "number" : "2000",
+          "role" : "payables",
+          "type" : "liability"
+        },
+        {
+          "name" : "Customer prepayments",
+          "number" : "2100",
+          "role" : "customerPrepayments",
+          "type" : "liability"
+        },
+        {
+          "name" : "Output VAT",
+          "number" : "2200",
+          "role" : "outputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Output VAT, reverse charge",
+          "number" : "2201",
+          "role" : "reverseChargeOutputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Input VAT",
+          "number" : "2210",
+          "role" : "inputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Input VAT, reverse charge and EU acquisitions",
+          "number" : "2211",
+          "role" : "reverseChargeInputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "VAT settlement",
+          "number" : "2290",
+          "role" : "vatSettlement",
+          "type" : "liability"
+        },
+        {
+          "name" : "Net salaries payable",
+          "number" : "2300",
+          "role" : "netSalaryPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Payroll tax withheld",
+          "number" : "2310",
+          "role" : "payrollTaxPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Social contributions payable",
+          "number" : "2320",
+          "role" : "employerContributionsPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Pension contributions payable",
+          "number" : "2330",
+          "role" : "pensionPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Vacation pay accrual",
+          "number" : "2340",
+          "role" : "vacationPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Employee outlays payable",
+          "number" : "2350",
+          "role" : "employeeOutlays",
+          "type" : "liability"
+        },
+        {
+          "name" : "Accrued expenses and deferred income",
+          "number" : "2400",
+          "role" : "accruedExpenses",
+          "type" : "liability"
+        },
+        {
+          "name" : "Long-term loans",
+          "number" : "2500",
+          "type" : "liability"
+        },
+        {
+          "name" : "Share capital and equity",
+          "number" : "3000",
+          "role" : "equity",
+          "type" : "equity"
+        },
+        {
+          "name" : "Retained earnings",
+          "number" : "3100",
+          "role" : "retainedEarnings",
+          "type" : "equity"
+        },
+        {
+          "name" : "Result for the year",
+          "number" : "3200",
+          "role" : "yearResult",
+          "type" : "equity"
+        },
+        {
+          "name" : "Owner drawings",
+          "number" : "3300",
+          "role" : "ownerDrawings",
+          "type" : "equity"
+        },
+        {
+          "defaultVatCode" : "S20",
+          "group" : "revenue",
+          "name" : "Sales of goods and services",
+          "number" : "4000",
+          "role" : "sales",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "S20",
+          "group" : "revenue",
+          "name" : "Sales of services",
+          "number" : "4010",
+          "role" : "salesServices",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "EUG",
+          "group" : "revenue",
+          "name" : "Sales to EU businesses (goods)",
+          "number" : "4020",
+          "role" : "salesEU",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "EUS",
+          "group" : "revenue",
+          "name" : "Sales to EU businesses (services)",
+          "number" : "4021",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "EXP",
+          "group" : "revenue",
+          "name" : "Export sales",
+          "number" : "4030",
+          "role" : "salesExport",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "EX0",
+          "group" : "revenue",
+          "name" : "VAT-exempt sales",
+          "number" : "4040",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Late fees and other income",
+          "number" : "4050",
+          "role" : "lateFeeIncome",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Rounding differences",
+          "number" : "4090",
+          "role" : "roundingDifference",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "costOfGoods",
+          "name" : "Purchases of goods and materials",
+          "number" : "5000",
+          "role" : "purchases",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "ACQG",
+          "group" : "costOfGoods",
+          "name" : "Purchases from EU and abroad (reverse charge)",
+          "number" : "5010",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "costOfGoods",
+          "name" : "Subcontractors",
+          "number" : "5020",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Rent",
+          "number" : "6000",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Electricity, water and heating",
+          "number" : "6010",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Office supplies",
+          "number" : "6100",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Software and subscriptions",
+          "number" : "6110",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Telephone and internet",
+          "number" : "6120",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Travel",
+          "number" : "6200",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Meals and entertainment",
+          "number" : "6210",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Fuel",
+          "number" : "6220",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Vehicle insurance and tax",
+          "number" : "6230",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Mileage allowances",
+          "number" : "6240",
+          "role" : "mileageExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Insurance",
+          "number" : "6300",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Marketing and advertising",
+          "number" : "6400",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Accounting and legal fees",
+          "number" : "6500",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Bank fees",
+          "number" : "6600",
+          "role" : "bankFees",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I20",
+          "group" : "externalCosts",
+          "name" : "Other external costs",
+          "number" : "6900",
+          "role" : "defaultExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Salaries and wages",
+          "number" : "7000",
+          "role" : "salaries",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Employer social contributions",
+          "number" : "7100",
+          "role" : "employerContributions",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Pension costs",
+          "number" : "7200",
+          "role" : "pensionExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Vacation pay expense",
+          "number" : "7300",
+          "role" : "vacationExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Other personnel costs",
+          "number" : "7900",
+          "type" : "expense"
+        },
+        {
+          "group" : "depreciation",
+          "name" : "Depreciation",
+          "number" : "8000",
+          "role" : "depreciationExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "financial",
+          "name" : "Interest income",
+          "number" : "9000",
+          "role" : "interestIncome",
+          "type" : "income"
+        },
+        {
+          "group" : "financial",
+          "name" : "Interest expense",
+          "number" : "9100",
+          "type" : "expense"
+        },
+        {
+          "group" : "financial",
+          "name" : "Exchange rate differences",
+          "number" : "9200",
+          "role" : "exchangeDifference",
+          "type" : "expense"
+        },
+        {
+          "group" : "closing",
+          "name" : "Result for the year (closing)",
+          "number" : "9999",
+          "type" : "expense"
+        }
+      ],
+      "closing" : "9999",
+      "euServicesRevenue" : "4021",
+      "outputVatByRate" : [
+
+      ],
+      "reverseChargeOutput" : [
+
+      ],
+      "salesByRate" : [
+        {
+          "account" : "4000",
+          "rate" : 0.2
+        },
+        {
+          "account" : "4000",
+          "rate" : 0.1
+        },
+        {
+          "account" : "4000",
+          "rate" : 0.055
+        },
+        {
+          "account" : "4000",
+          "rate" : 0.021
+        },
+        {
+          "account" : "4040",
+          "rate" : 0
+        }
+      ]
+    },
+    "company" : {
+      "idCheck" : "sirenOrSiret",
+      "idExample" : "552 100 554",
+      "idTitle" : {
+        "da" : "SIREN eller SIRET",
+        "en" : "SIREN or SIRET"
+      },
+      "vatExample" : "FR96552100554",
+      "vatFromID" : "frenchSiren"
+    },
+    "currency" : "EUR",
+    "invoicing" : {
+      "lateInterest" : [
+        {
+          "from" : "2000-01-01",
+          "value" : 0.1
+        }
+      ],
+      "referenceStyle" : "rf",
+      "reminderFee" : [
+        {
+          "from" : "2000-01-01",
+          "value" : {
+            "defaultFee" : 0
+          }
+        }
+      ],
+      "requiredFields" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            "issueDate",
+            "number",
+            "sellerName",
+            "sellerAddress",
+            "sellerVatNumber",
+            "buyerName",
+            "buyerAddress",
+            "description",
+            "quantity",
+            "deliveryDate",
+            "unitPrice",
+            "vatRate",
+            "vatAmount",
+            "total"
+          ]
+        }
+      ]
+    },
+    "locale" : "fr_FR",
+    "mileage" : [
+      {
+        "from" : "2000-01-01",
+        "value" : {
+          "rate" : 0.6
+        }
+      }
+    ],
+    "payroll" : [
+      {
+        "from" : "2000-01-01",
+        "value" : {
+          "defaultHoursPerWeek" : 40,
+          "employerPercent" : 42,
+          "scheme" : "flat"
+        }
+      }
+    ],
+    "vat" : {
+      "boxes" : [
+        {
+          "id" : "turnover",
+          "label" : "Domestic taxable turnover",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "output.20",
+          "label" : "Output VAT 20 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "output.10",
+          "label" : "Output VAT 10 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "output.5.5",
+          "label" : "Output VAT 5.5 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "output.2.1",
+          "label" : "Output VAT 2.1 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "acquisitionsBase",
+          "label" : "EU acquisitions and reverse-charge purchases",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "acquisitionsVat",
+          "label" : "VAT on EU acquisitions and reverse charge",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "euSupplies",
+          "label" : "Intra-community supplies",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "exports",
+          "label" : "Exports",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "exemptSales",
+          "label" : "VAT-exempt sales",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "inputVat",
+          "label" : "Deductible input VAT",
+          "source" : "inputVat"
+        },
+        {
+          "id" : "payable",
+          "label" : "VAT payable (refund if negative)",
+          "source" : "result"
+        }
+      ],
+      "codes" : [
+        {
+          "boxes" : [
+            "turnover",
+            "output.20"
+          ],
+          "code" : "S20",
+          "kind" : "output",
+          "name" : "Output VAT 20 %",
+          "rate" : 0.2
+        },
+        {
+          "boxes" : [
+            "turnover",
+            "output.10"
+          ],
+          "code" : "S10",
+          "kind" : "output",
+          "name" : "Output VAT 10 %",
+          "rate" : 0.1
+        },
+        {
+          "boxes" : [
+            "turnover",
+            "output.5.5"
+          ],
+          "code" : "S5.5",
+          "kind" : "output",
+          "name" : "Output VAT 5.5 %",
+          "rate" : 0.055
+        },
+        {
+          "boxes" : [
+            "turnover",
+            "output.2.1"
+          ],
+          "code" : "S2.1",
+          "kind" : "output",
+          "name" : "Output VAT 2.1 %",
+          "rate" : 0.021
+        },
+        {
+          "boxes" : [
+            "inputVat"
+          ],
+          "code" : "I20",
+          "kind" : "input",
+          "name" : "Input VAT 20 %",
+          "rate" : 0.2
+        },
+        {
+          "boxes" : [
+            "inputVat"
+          ],
+          "code" : "I10",
+          "kind" : "input",
+          "name" : "Input VAT 10 %",
+          "rate" : 0.1
+        },
+        {
+          "boxes" : [
+            "inputVat"
+          ],
+          "code" : "I5.5",
+          "kind" : "input",
+          "name" : "Input VAT 5.5 %",
+          "rate" : 0.055
+        },
+        {
+          "boxes" : [
+            "inputVat"
+          ],
+          "code" : "I2.1",
+          "kind" : "input",
+          "name" : "Input VAT 2.1 %",
+          "rate" : 0.021
+        },
+        {
+          "boxes" : [
+            "acquisitionsBase",
+            "acquisitionsVat",
+            "inputVat"
+          ],
+          "code" : "ACQG",
+          "kind" : "reverseChargeEUGoods",
+          "name" : "EU acquisition of goods (reverse charge)",
+          "rate" : 0.2
+        },
+        {
+          "boxes" : [
+            "acquisitionsBase",
+            "acquisitionsVat",
+            "inputVat"
+          ],
+          "code" : "ACQS",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Services from abroad (reverse charge)",
+          "rate" : 0.2
+        },
+        {
+          "boxes" : [
+            "acquisitionsBase",
+            "acquisitionsVat",
+            "inputVat"
+          ],
+          "code" : "RCD",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Domestic reverse charge purchase",
+          "rate" : 0.2
+        },
+        {
+          "boxes" : [
+            "inputVat"
+          ],
+          "code" : "IMP",
+          "kind" : "importGoods",
+          "name" : "Import of goods (VAT paid at customs)",
+          "rate" : 0.2
+        },
+        {
+          "boxes" : [
+            "euSupplies"
+          ],
+          "code" : "EUG",
+          "kind" : "euSupplyGoods",
+          "name" : "Intra-community supply of goods",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "euSupplies"
+          ],
+          "code" : "EUS",
+          "kind" : "euSupplyServices",
+          "name" : "Supply of services to EU businesses",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "exports"
+          ],
+          "code" : "EXP",
+          "kind" : "exportSupply",
+          "name" : "Export outside the EU",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "exemptSales"
+          ],
+          "code" : "EX0",
+          "kind" : "exempt",
+          "name" : "VAT-exempt sales",
+          "rate" : 0
+        }
+      ],
+      "deadlineShift" : [
+        {
+          "from" : "2000-01-01",
+          "value" : "none"
+        }
+      ],
+      "deadlines" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            {
+              "day" : 20,
+              "monthsAfter" : 1
+            }
+          ]
+        }
+      ],
+      "holidays" : [
+
+      ],
+      "inputAccounts" : [
+        "2210",
+        "2211"
+      ],
+      "outputAccounts" : [
+        "2200",
+        "2201"
+      ],
+      "rates" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            0.2,
+            0.1,
+            0.055,
+            0.021,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "format" : 1,
+  "id" : "fr",
+  "published" : "2026-10-24",
+  "sources" : [
+    "Carried over from the app's built-in values (2026-10-24); not yet checked against the authority."
+  ],
+  "version" : 1
+}

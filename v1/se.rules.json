@@ -1,0 +1,1212 @@
+{
+  "country" : {
+    "accounts" : {
+      "chart" : [
+        {
+          "group" : "fixedAssets",
+          "name" : "Inventarier och verktyg",
+          "number" : "1220",
+          "role" : "fixedAssets",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Ackumulerade avskrivningar på inventarier och verktyg",
+          "number" : "1229",
+          "role" : "accumulatedDepreciation",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Bilar och andra transportmedel",
+          "number" : "1240",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Ackumulerade avskrivningar på bilar och transportmedel",
+          "number" : "1249",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Datorer",
+          "number" : "1250",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Ackumulerade avskrivningar på datorer",
+          "number" : "1259",
+          "type" : "asset"
+        },
+        {
+          "name" : "Lager av handelsvaror",
+          "number" : "1460",
+          "type" : "asset"
+        },
+        {
+          "name" : "Kundfordringar",
+          "number" : "1510",
+          "role" : "receivables",
+          "type" : "asset"
+        },
+        {
+          "name" : "Innehållna kundbetalningar",
+          "number" : "1515",
+          "role" : "withheldPayments",
+          "type" : "asset"
+        },
+        {
+          "name" : "Skattekonto",
+          "number" : "1630",
+          "type" : "asset"
+        },
+        {
+          "name" : "Momsfordran",
+          "number" : "1650",
+          "type" : "asset"
+        },
+        {
+          "name" : "Övriga förutbetalda kostnader och upplupna intäkter",
+          "number" : "1790",
+          "role" : "prepaidExpenses",
+          "type" : "asset"
+        },
+        {
+          "name" : "Kassa",
+          "number" : "1910",
+          "role" : "cash",
+          "type" : "asset"
+        },
+        {
+          "name" : "Företagskonto",
+          "number" : "1930",
+          "role" : "bank",
+          "type" : "asset"
+        },
+        {
+          "name" : "Eget kapital (enskild firma)",
+          "number" : "2010",
+          "type" : "equity"
+        },
+        {
+          "name" : "Övriga egna uttag",
+          "number" : "2013",
+          "role" : "ownerDrawings",
+          "type" : "equity"
+        },
+        {
+          "name" : "Egna insättningar",
+          "number" : "2017",
+          "type" : "equity"
+        },
+        {
+          "name" : "Aktiekapital",
+          "number" : "2081",
+          "role" : "equity",
+          "type" : "equity"
+        },
+        {
+          "name" : "Balanserad vinst eller förlust",
+          "number" : "2091",
+          "role" : "retainedEarnings",
+          "type" : "equity"
+        },
+        {
+          "name" : "Årets resultat",
+          "number" : "2099",
+          "role" : "yearResult",
+          "type" : "equity"
+        },
+        {
+          "name" : "Andra långfristiga skulder till kreditinstitut",
+          "number" : "2350",
+          "type" : "liability"
+        },
+        {
+          "name" : "Förskott från kunder",
+          "number" : "2420",
+          "role" : "customerPrepayments",
+          "type" : "liability"
+        },
+        {
+          "name" : "Leverantörsskulder",
+          "number" : "2440",
+          "role" : "payables",
+          "type" : "liability"
+        },
+        {
+          "name" : "Utgående moms 25 %",
+          "number" : "2610",
+          "role" : "outputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Utgående moms omvänd skattskyldighet 25 %",
+          "number" : "2614",
+          "role" : "reverseChargeOutputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Utgående moms 12 %",
+          "number" : "2620",
+          "type" : "liability"
+        },
+        {
+          "name" : "Utgående moms omvänd skattskyldighet 12 %",
+          "number" : "2624",
+          "type" : "liability"
+        },
+        {
+          "name" : "Utgående moms 6 %",
+          "number" : "2630",
+          "type" : "liability"
+        },
+        {
+          "name" : "Utgående moms omvänd skattskyldighet 6 %",
+          "number" : "2634",
+          "type" : "liability"
+        },
+        {
+          "name" : "Ingående moms",
+          "number" : "2640",
+          "role" : "inputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Beräknad ingående moms på förvärv från utlandet",
+          "number" : "2645",
+          "role" : "reverseChargeInputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Redovisningskonto för moms",
+          "number" : "2650",
+          "role" : "vatSettlement",
+          "type" : "liability"
+        },
+        {
+          "name" : "Personalskatt",
+          "number" : "2710",
+          "role" : "payrollTaxPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Lagstadgade sociala avgifter",
+          "number" : "2730",
+          "role" : "employerContributionsPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Avtalade pensionsavgifter och sociala avgifter",
+          "number" : "2740",
+          "role" : "pensionPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Kortfristiga skulder till anställda (nettolön)",
+          "number" : "2820",
+          "role" : "netSalaryPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Övriga kortfristiga skulder (utlägg anställda)",
+          "number" : "2890",
+          "role" : "employeeOutlays",
+          "type" : "liability"
+        },
+        {
+          "name" : "Upplupna semesterlöner",
+          "number" : "2920",
+          "role" : "vacationPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Övriga upplupna kostnader och förutbetalda intäkter",
+          "number" : "2990",
+          "role" : "accruedExpenses",
+          "type" : "liability"
+        },
+        {
+          "defaultVatCode" : "MP1",
+          "group" : "revenue",
+          "name" : "Försäljning inom Sverige, 25 % moms",
+          "number" : "3001",
+          "role" : "sales",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "MP2",
+          "group" : "revenue",
+          "name" : "Försäljning inom Sverige, 12 % moms",
+          "number" : "3002",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "MP3",
+          "group" : "revenue",
+          "name" : "Försäljning inom Sverige, 6 % moms",
+          "number" : "3003",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "E42",
+          "group" : "revenue",
+          "name" : "Försäljning inom Sverige, momsfri",
+          "number" : "3004",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "MP1",
+          "group" : "revenue",
+          "name" : "Försäljning tjänster inom Sverige, 25 % moms",
+          "number" : "3041",
+          "role" : "salesServices",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "E36",
+          "group" : "revenue",
+          "name" : "Försäljning varor till land utanför EU (export)",
+          "number" : "3105",
+          "role" : "salesExport",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "E35",
+          "group" : "revenue",
+          "name" : "Försäljning varor till annat EU-land",
+          "number" : "3106",
+          "role" : "salesEU",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "E40",
+          "group" : "revenue",
+          "name" : "Försäljning tjänster till land utanför EU",
+          "number" : "3305",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "E39",
+          "group" : "revenue",
+          "name" : "Försäljning tjänster till annat EU-land",
+          "number" : "3308",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Övriga sidointäkter (påminnelseavgifter)",
+          "number" : "3590",
+          "role" : "lateFeeIncome",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Öresavrundning",
+          "number" : "3740",
+          "role" : "roundingDifference",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Valutakursvinster",
+          "number" : "3960",
+          "role" : "exchangeDifference",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "costOfGoods",
+          "name" : "Inköp av varor och material",
+          "number" : "4000",
+          "role" : "purchases",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "costOfGoods",
+          "name" : "Inköp material och varor",
+          "number" : "4010",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "R20-25",
+          "group" : "costOfGoods",
+          "name" : "Inköp av varor från annat EU-land, 25 %",
+          "number" : "4515",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "R22-25",
+          "group" : "costOfGoods",
+          "name" : "Inköp av tjänster från land utanför EU, 25 %",
+          "number" : "4531",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "R21-25",
+          "group" : "costOfGoods",
+          "name" : "Inköp av tjänster från annat EU-land, 25 %",
+          "number" : "4535",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Lokalhyra",
+          "number" : "5010",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "El för lokaler",
+          "number" : "5020",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Förbrukningsinventarier",
+          "number" : "5410",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Programvaror",
+          "number" : "5420",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Förbrukningsmaterial",
+          "number" : "5460",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Reparation och underhåll",
+          "number" : "5500",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Drivmedel för personbilar",
+          "number" : "5611",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Försäkring och skatt för personbilar",
+          "number" : "5612",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Resekostnader",
+          "number" : "5800",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I12",
+          "group" : "externalCosts",
+          "name" : "Kost och logi i Sverige",
+          "number" : "5831",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Annonsering",
+          "number" : "5910",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Representation, avdragsgill",
+          "number" : "6071",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Kontorsmaterial",
+          "number" : "6110",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Mobiltelefon",
+          "number" : "6212",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Datakommunikation",
+          "number" : "6230",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Företagsförsäkringar",
+          "number" : "6310",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Redovisningstjänster",
+          "number" : "6530",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "IT-tjänster",
+          "number" : "6540",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Bankkostnader",
+          "number" : "6570",
+          "role" : "bankFees",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "I25",
+          "group" : "externalCosts",
+          "name" : "Övriga externa kostnader",
+          "number" : "6990",
+          "role" : "defaultExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Löner till kollektivanställda",
+          "number" : "7010",
+          "role" : "salaries",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Förändring av semesterlöneskuld",
+          "number" : "7090",
+          "role" : "vacationExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Skattefria bilersättningar",
+          "number" : "7331",
+          "role" : "mileageExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Pensionsförsäkringspremier",
+          "number" : "7410",
+          "role" : "pensionExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Arbetsgivaravgifter",
+          "number" : "7510",
+          "role" : "employerContributions",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Övriga personalkostnader",
+          "number" : "7690",
+          "type" : "expense"
+        },
+        {
+          "group" : "depreciation",
+          "name" : "Avskrivningar på maskiner och inventarier",
+          "number" : "7830",
+          "role" : "depreciationExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Valutakursförluster",
+          "number" : "7960",
+          "type" : "expense"
+        },
+        {
+          "group" : "financial",
+          "name" : "Ränteintäkter från omsättningstillgångar",
+          "number" : "8310",
+          "role" : "interestIncome",
+          "type" : "income"
+        },
+        {
+          "group" : "financial",
+          "name" : "Räntekostnader för långfristiga skulder",
+          "number" : "8410",
+          "type" : "expense"
+        },
+        {
+          "group" : "financial",
+          "name" : "Räntekostnader för kortfristiga skulder",
+          "number" : "8420",
+          "type" : "expense"
+        },
+        {
+          "group" : "closing",
+          "name" : "Årets resultat",
+          "number" : "8999",
+          "type" : "expense"
+        }
+      ],
+      "closing" : "8999",
+      "euServicesRevenue" : "3308",
+      "exchangeLoss" : "7960",
+      "outputVatByRate" : [
+        {
+          "account" : "2610",
+          "rate" : 0.25
+        },
+        {
+          "account" : "2620",
+          "rate" : 0.12
+        },
+        {
+          "account" : "2630",
+          "rate" : 0.06
+        }
+      ],
+      "reverseChargeOutput" : [
+        {
+          "account" : "2614",
+          "rate" : 0.25
+        },
+        {
+          "account" : "2624",
+          "rate" : 0.12
+        },
+        {
+          "account" : "2634",
+          "rate" : 0.06
+        }
+      ],
+      "salesByRate" : [
+        {
+          "account" : "3001",
+          "rate" : 0.25
+        },
+        {
+          "account" : "3002",
+          "rate" : 0.12
+        },
+        {
+          "account" : "3003",
+          "rate" : 0.06
+        },
+        {
+          "account" : "3004",
+          "rate" : 0
+        }
+      ]
+    },
+    "company" : {
+      "idCheck" : "swedishOrg",
+      "idExample" : "556016-0680",
+      "idTitle" : {
+        "da" : "Organisationsnummer",
+        "en" : "Organisation number"
+      },
+      "vatExample" : "SE556016068001",
+      "vatFromID" : "swedishOrg01"
+    },
+    "currency" : "SEK",
+    "invoicing" : {
+      "lateInterest" : [
+        {
+          "from" : "2000-01-01",
+          "value" : 0.1
+        }
+      ],
+      "referenceStyle" : "swedishOCR",
+      "reminderFee" : [
+        {
+          "from" : "2000-01-01",
+          "value" : {
+            "capCompany" : 450,
+            "capConsumer" : 60,
+            "defaultFee" : 0
+          }
+        }
+      ],
+      "requiredFields" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            "issueDate",
+            "number",
+            "sellerName",
+            "sellerAddress",
+            "sellerVatNumber",
+            "buyerName",
+            "buyerAddress",
+            "description",
+            "quantity",
+            "deliveryDate",
+            "unitPrice",
+            "vatRate",
+            "vatAmount",
+            "total"
+          ]
+        }
+      ]
+    },
+    "locale" : "sv_SE",
+    "mileage" : [
+      {
+        "from" : "2000-01-01",
+        "value" : {
+          "rate" : 2.5
+        }
+      }
+    ],
+    "payroll" : [
+      {
+        "from" : "2000-01-01",
+        "value" : {
+          "dailySalaryFactor" : 0.046,
+          "defaultHoursPerWeek" : 40,
+          "employerPercent" : 31.42,
+          "karensFraction" : 0.2,
+          "maxEmployerSickDays" : 14,
+          "scheme" : "se",
+          "sickPayFraction" : 0.8,
+          "vacationAccrualPercent" : 12,
+          "vacationSupplementFactor" : 0.0043
+        }
+      }
+    ],
+    "rotRut" : [
+      {
+        "from" : "2000-01-01",
+        "value" : {
+          "combinedYearlyCap" : 75000,
+          "rotRate" : 0.3,
+          "rotYearlyCap" : 50000,
+          "rutRate" : 0.5
+        }
+      }
+    ],
+    "vat" : {
+      "boxes" : [
+        {
+          "id" : "05",
+          "label" : "05 Momspliktig försäljning som inte ingår i 06, 07 eller 08",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "06",
+          "label" : "06 Momspliktiga uttag",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "07",
+          "label" : "07 Beskattningsunderlag vid vinstmarginalbeskattning",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "08",
+          "label" : "08 Hyresinkomster vid frivillig beskattning",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "10",
+          "label" : "10 Utgående moms 25 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "11",
+          "label" : "11 Utgående moms 12 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "12",
+          "label" : "12 Utgående moms 6 %",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "20",
+          "label" : "20 Inköp av varor från annat EU-land",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "21",
+          "label" : "21 Inköp av tjänster från annat EU-land",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "22",
+          "label" : "22 Inköp av tjänster från land utanför EU",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "23",
+          "label" : "23 Inköp av varor i Sverige som köparen är skattskyldig för",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "24",
+          "label" : "24 Övriga inköp av tjänster",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "30",
+          "label" : "30 Utgående moms 25 % (omvänd skattskyldighet)",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "31",
+          "label" : "31 Utgående moms 12 % (omvänd skattskyldighet)",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "32",
+          "label" : "32 Utgående moms 6 % (omvänd skattskyldighet)",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "35",
+          "label" : "35 Försäljning av varor till annat EU-land",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "36",
+          "label" : "36 Försäljning av varor utanför EU",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "37",
+          "label" : "37 Mellanmans inköp av varor vid trepartshandel",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "38",
+          "label" : "38 Mellanmans försäljning av varor vid trepartshandel",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "39",
+          "label" : "39 Försäljning av tjänster till näringsidkare i annat EU-land",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "40",
+          "label" : "40 Övrig försäljning av tjänster omsatta utanför Sverige",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "41",
+          "label" : "41 Försäljning när köparen är skattskyldig i Sverige",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "42",
+          "label" : "42 Övrig försäljning m.m.",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "48",
+          "label" : "48 Ingående moms att dra av",
+          "source" : "inputVat"
+        },
+        {
+          "id" : "49",
+          "label" : "49 Moms att betala eller få tillbaka",
+          "source" : "result"
+        }
+      ],
+      "codes" : [
+        {
+          "boxes" : [
+            "05",
+            "10"
+          ],
+          "code" : "MP1",
+          "kind" : "output",
+          "name" : "Utgående moms 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "05",
+            "11"
+          ],
+          "code" : "MP2",
+          "kind" : "output",
+          "name" : "Utgående moms 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "05",
+            "12"
+          ],
+          "code" : "MP3",
+          "kind" : "output",
+          "name" : "Utgående moms 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "06",
+            "10"
+          ],
+          "code" : "MU1",
+          "kind" : "output",
+          "name" : "Uttag, utgående moms 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "06",
+            "11"
+          ],
+          "code" : "MU2",
+          "kind" : "output",
+          "name" : "Uttag, utgående moms 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "06",
+            "12"
+          ],
+          "code" : "MU3",
+          "kind" : "output",
+          "name" : "Uttag, utgående moms 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "08",
+            "10"
+          ],
+          "code" : "HYR",
+          "kind" : "output",
+          "name" : "Hyresinkomst, frivillig skattskyldighet 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "35"
+          ],
+          "code" : "E35",
+          "kind" : "euSupplyGoods",
+          "name" : "Varuförsäljning till annat EU-land",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "36"
+          ],
+          "code" : "E36",
+          "kind" : "exportSupply",
+          "name" : "Varuförsäljning utanför EU",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "39"
+          ],
+          "code" : "E39",
+          "kind" : "euSupplyServices",
+          "name" : "Tjänsteförsäljning till företag i annat EU-land",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "40"
+          ],
+          "code" : "E40",
+          "kind" : "exportSupply",
+          "name" : "Övrig tjänsteförsäljning utomlands",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "42"
+          ],
+          "code" : "E42",
+          "kind" : "exempt",
+          "name" : "Övrig försäljning m.m. (momsfri)",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "41"
+          ],
+          "code" : "E41",
+          "kind" : "exempt",
+          "name" : "Försäljning, köparen är skattskyldig i Sverige",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "48"
+          ],
+          "code" : "I25",
+          "kind" : "input",
+          "name" : "Ingående moms 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "48"
+          ],
+          "code" : "I12",
+          "kind" : "input",
+          "name" : "Ingående moms 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "48"
+          ],
+          "code" : "I6",
+          "kind" : "input",
+          "name" : "Ingående moms 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "20",
+            "30",
+            "48"
+          ],
+          "code" : "R20-25",
+          "kind" : "reverseChargeEUGoods",
+          "name" : "Inköp av varor från annat EU-land, 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "20",
+            "31",
+            "48"
+          ],
+          "code" : "R20-12",
+          "kind" : "reverseChargeEUGoods",
+          "name" : "Inköp av varor från annat EU-land, 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "20",
+            "32",
+            "48"
+          ],
+          "code" : "R20-6",
+          "kind" : "reverseChargeEUGoods",
+          "name" : "Inköp av varor från annat EU-land, 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "21",
+            "30",
+            "48"
+          ],
+          "code" : "R21-25",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Inköp av tjänster från annat EU-land, 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "21",
+            "31",
+            "48"
+          ],
+          "code" : "R21-12",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Inköp av tjänster från annat EU-land, 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "21",
+            "32",
+            "48"
+          ],
+          "code" : "R21-6",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Inköp av tjänster från annat EU-land, 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "22",
+            "30",
+            "48"
+          ],
+          "code" : "R22-25",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Inköp av tjänster från land utanför EU, 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "22",
+            "31",
+            "48"
+          ],
+          "code" : "R22-12",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Inköp av tjänster från land utanför EU, 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "22",
+            "32",
+            "48"
+          ],
+          "code" : "R22-6",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Inköp av tjänster från land utanför EU, 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "23",
+            "30",
+            "48"
+          ],
+          "code" : "R23-25",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Inköp av varor i Sverige, köparen skattskyldig, 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "23",
+            "31",
+            "48"
+          ],
+          "code" : "R23-12",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Inköp av varor i Sverige, köparen skattskyldig, 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "23",
+            "32",
+            "48"
+          ],
+          "code" : "R23-6",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Inköp av varor i Sverige, köparen skattskyldig, 6 %",
+          "rate" : 0.06
+        },
+        {
+          "boxes" : [
+            "24",
+            "30",
+            "48"
+          ],
+          "code" : "R24-25",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Övriga inköp av tjänster, köparen skattskyldig, 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "24",
+            "31",
+            "48"
+          ],
+          "code" : "R24-12",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Övriga inköp av tjänster, köparen skattskyldig, 12 %",
+          "rate" : 0.12
+        },
+        {
+          "boxes" : [
+            "24",
+            "32",
+            "48"
+          ],
+          "code" : "R24-6",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Övriga inköp av tjänster, köparen skattskyldig, 6 %",
+          "rate" : 0.06
+        }
+      ],
+      "deadlineShift" : [
+        {
+          "from" : "2000-01-01",
+          "value" : "none"
+        }
+      ],
+      "deadlines" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            {
+              "day" : 26,
+              "largeCompany" : true,
+              "monthly" : true,
+              "monthsAfter" : 1
+            },
+            {
+              "day" : 12,
+              "monthsAfter" : 2
+            }
+          ]
+        }
+      ],
+      "holidays" : [
+
+      ],
+      "inputAccounts" : [
+        "2640",
+        "2645"
+      ],
+      "outputAccounts" : [
+        "2610",
+        "2614",
+        "2620",
+        "2624",
+        "2630",
+        "2634"
+      ],
+      "rates" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            0.25,
+            0.12,
+            0.06,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "format" : 1,
+  "id" : "se",
+  "published" : "2026-10-24",
+  "sources" : [
+    "Carried over from the app's built-in values (2026-10-24); not yet checked against the authority."
+  ],
+  "version" : 1
+}

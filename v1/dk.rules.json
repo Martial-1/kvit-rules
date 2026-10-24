@@ -1,0 +1,834 @@
+{
+  "country" : {
+    "accounts" : {
+      "chart" : [
+        {
+          "defaultVatCode" : "S25",
+          "group" : "revenue",
+          "name" : "Salg af varer/ydelser m. moms",
+          "number" : "1000",
+          "role" : "sales",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "S25",
+          "group" : "revenue",
+          "name" : "Salg af ydelser m. moms",
+          "number" : "1005",
+          "role" : "salesServices",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "SEUV",
+          "group" : "revenue",
+          "name" : "Salg af varer til EU (Rubrik B varer)",
+          "number" : "1010",
+          "role" : "salesEU",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "SEUY",
+          "group" : "revenue",
+          "name" : "Salg af ydelser til EU (Rubrik B ydelser)",
+          "number" : "1011",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "SX",
+          "group" : "revenue",
+          "name" : "Eksport og salg uden for EU (Rubrik C)",
+          "number" : "1020",
+          "role" : "salesExport",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "S0",
+          "group" : "revenue",
+          "name" : "Momsfrit salg i Danmark",
+          "number" : "1030",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Gebyrer og rykkergebyrer",
+          "number" : "1050",
+          "role" : "lateFeeIncome",
+          "type" : "income"
+        },
+        {
+          "group" : "revenue",
+          "name" : "Øreafrunding",
+          "number" : "1090",
+          "role" : "roundingDifference",
+          "type" : "income"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "costOfGoods",
+          "name" : "Vareforbrug",
+          "number" : "1300",
+          "role" : "purchases",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "KV",
+          "group" : "costOfGoods",
+          "name" : "Varekøb fra EU (Rubrik A varer)",
+          "number" : "1310",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "KY",
+          "group" : "costOfGoods",
+          "name" : "Ydelseskøb fra udlandet (Rubrik A ydelser)",
+          "number" : "1320",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "costOfGoods",
+          "name" : "Fremmed arbejde og underleverandører",
+          "number" : "1400",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Husleje",
+          "number" : "2000",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "El, vand og varme",
+          "number" : "2010",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Kontorudgifter og småanskaffelser",
+          "number" : "2100",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Software og abonnementer",
+          "number" : "2110",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Telefon og internet",
+          "number" : "2120",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Rejseomkostninger",
+          "number" : "2200",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Kørselsgodtgørelse",
+          "number" : "2210",
+          "role" : "mileageExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Repræsentation",
+          "number" : "2220",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Brændstof",
+          "number" : "2230",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Forsikring og afgifter, køretøjer",
+          "number" : "2240",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Forsikringer",
+          "number" : "2300",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Markedsføring og reklame",
+          "number" : "2400",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Revisor og regnskabsassistance",
+          "number" : "2500",
+          "type" : "expense"
+        },
+        {
+          "group" : "externalCosts",
+          "name" : "Bankgebyrer",
+          "number" : "2600",
+          "role" : "bankFees",
+          "type" : "expense"
+        },
+        {
+          "defaultVatCode" : "K25",
+          "group" : "externalCosts",
+          "name" : "Øvrige driftsomkostninger",
+          "number" : "2900",
+          "role" : "defaultExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Lønninger",
+          "number" : "3000",
+          "role" : "salaries",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "ATP og arbejdsgiverbidrag (AES, barsel)",
+          "number" : "3010",
+          "role" : "employerContributions",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Feriepenge",
+          "number" : "3020",
+          "role" : "vacationExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Pensionsbidrag",
+          "number" : "3030",
+          "role" : "pensionExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "personnel",
+          "name" : "Øvrige personaleomkostninger",
+          "number" : "3090",
+          "type" : "expense"
+        },
+        {
+          "group" : "depreciation",
+          "name" : "Afskrivninger på driftsmidler",
+          "number" : "4000",
+          "role" : "depreciationExpense",
+          "type" : "expense"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Driftsmidler og inventar",
+          "number" : "5000",
+          "role" : "fixedAssets",
+          "type" : "asset"
+        },
+        {
+          "group" : "fixedAssets",
+          "name" : "Akkumulerede afskrivninger, driftsmidler",
+          "number" : "5009",
+          "role" : "accumulatedDepreciation",
+          "type" : "asset"
+        },
+        {
+          "name" : "Varelager",
+          "number" : "5200",
+          "type" : "asset"
+        },
+        {
+          "name" : "Forudbetalte omkostninger",
+          "number" : "5400",
+          "role" : "prepaidExpenses",
+          "type" : "asset"
+        },
+        {
+          "name" : "Kasse",
+          "number" : "5500",
+          "role" : "cash",
+          "type" : "asset"
+        },
+        {
+          "name" : "Bank",
+          "number" : "5600",
+          "role" : "bank",
+          "type" : "asset"
+        },
+        {
+          "name" : "Skattekonto",
+          "number" : "5700",
+          "type" : "asset"
+        },
+        {
+          "name" : "Debitorer",
+          "number" : "5800",
+          "role" : "receivables",
+          "type" : "asset"
+        },
+        {
+          "name" : "Tilbageholdte kundebetalinger",
+          "number" : "5810",
+          "role" : "withheldPayments",
+          "type" : "asset"
+        },
+        {
+          "name" : "Tilgodehavende moms",
+          "number" : "5900",
+          "type" : "asset"
+        },
+        {
+          "name" : "Egenkapital",
+          "number" : "6000",
+          "role" : "equity",
+          "type" : "equity"
+        },
+        {
+          "name" : "Overført resultat",
+          "number" : "6010",
+          "role" : "retainedEarnings",
+          "type" : "equity"
+        },
+        {
+          "name" : "Årets resultat",
+          "number" : "6020",
+          "role" : "yearResult",
+          "type" : "equity"
+        },
+        {
+          "name" : "Privatforbrug (hævninger)",
+          "number" : "6030",
+          "role" : "ownerDrawings",
+          "type" : "equity"
+        },
+        {
+          "name" : "Langfristet gæld",
+          "number" : "6100",
+          "type" : "liability"
+        },
+        {
+          "name" : "Kreditorer",
+          "number" : "6800",
+          "role" : "payables",
+          "type" : "liability"
+        },
+        {
+          "name" : "Skyldig nettoløn",
+          "number" : "6810",
+          "role" : "netSalaryPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Skyldig A-skat og AM-bidrag",
+          "number" : "6820",
+          "role" : "payrollTaxPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Skyldig ATP og arbejdsgiverbidrag",
+          "number" : "6830",
+          "role" : "employerContributionsPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Skyldig pension",
+          "number" : "6840",
+          "role" : "pensionPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Skyldige feriepenge",
+          "number" : "6850",
+          "role" : "vacationPayable",
+          "type" : "liability"
+        },
+        {
+          "name" : "Mellemregning med medarbejdere (udlæg)",
+          "number" : "6860",
+          "role" : "employeeOutlays",
+          "type" : "liability"
+        },
+        {
+          "name" : "Skyldige omkostninger",
+          "number" : "6870",
+          "role" : "accruedExpenses",
+          "type" : "liability"
+        },
+        {
+          "name" : "Modtagne forudbetalinger fra kunder",
+          "number" : "6880",
+          "role" : "customerPrepayments",
+          "type" : "liability"
+        },
+        {
+          "name" : "Salgsmoms",
+          "number" : "7000",
+          "role" : "outputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Købsmoms",
+          "number" : "7010",
+          "role" : "inputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Købsmoms af udenlandske køb (omvendt betaling)",
+          "number" : "7015",
+          "role" : "reverseChargeInputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Moms af varekøb i udlandet",
+          "number" : "7020",
+          "role" : "reverseChargeOutputVat",
+          "type" : "liability"
+        },
+        {
+          "name" : "Moms af ydelseskøb i udlandet",
+          "number" : "7030",
+          "type" : "liability"
+        },
+        {
+          "name" : "Momsafregning",
+          "number" : "7040",
+          "role" : "vatSettlement",
+          "type" : "liability"
+        },
+        {
+          "group" : "financial",
+          "name" : "Renteindtægter",
+          "number" : "8000",
+          "role" : "interestIncome",
+          "type" : "income"
+        },
+        {
+          "group" : "financial",
+          "name" : "Renteudgifter",
+          "number" : "8100",
+          "type" : "expense"
+        },
+        {
+          "group" : "financial",
+          "name" : "Valutakursdifferencer",
+          "number" : "8200",
+          "role" : "exchangeDifference",
+          "type" : "expense"
+        },
+        {
+          "group" : "closing",
+          "name" : "Årets resultat (afslutning)",
+          "number" : "9999",
+          "type" : "expense"
+        }
+      ],
+      "closing" : "9999",
+      "euServicesRevenue" : "1011",
+      "outputVatByRate" : [
+
+      ],
+      "reverseChargeOutput" : [
+        {
+          "account" : "7030",
+          "kind" : "reverseChargeEUServices"
+        },
+        {
+          "account" : "7020"
+        }
+      ],
+      "salesByRate" : [
+        {
+          "account" : "1000",
+          "rate" : 0.25
+        },
+        {
+          "account" : "1030",
+          "rate" : 0
+        }
+      ]
+    },
+    "company" : {
+      "idCheck" : "cvr",
+      "idExample" : "12345607",
+      "idTitle" : {
+        "da" : "CVR-nummer",
+        "en" : "CVR number"
+      },
+      "vatExample" : "DK12345607",
+      "vatFromID" : "prefix8"
+    },
+    "currency" : "DKK",
+    "invoicing" : {
+      "lateInterest" : [
+        {
+          "from" : "2025-07-01",
+          "value" : 0.0975
+        },
+        {
+          "from" : "2026-07-01",
+          "value" : 0.1
+        }
+      ],
+      "referenceStyle" : "rf",
+      "reminderFee" : [
+        {
+          "from" : "2000-01-01",
+          "value" : {
+            "capCompany" : 100,
+            "capConsumer" : 100,
+            "defaultFee" : 100,
+            "maxFeeReminders" : 3
+          }
+        }
+      ],
+      "requiredFields" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            "issueDate",
+            "number",
+            "sellerName",
+            "sellerAddress",
+            "sellerVatNumber",
+            "buyerName",
+            "buyerAddress",
+            "description",
+            "quantity",
+            "deliveryDate",
+            "unitPrice",
+            "vatRate",
+            "vatAmount",
+            "total"
+          ]
+        }
+      ],
+      "simplifiedInvoiceLimit" : [
+        {
+          "from" : "2000-01-01",
+          "value" : 3000
+        }
+      ]
+    },
+    "locale" : "da_DK",
+    "mileage" : [
+      {
+        "from" : "2025-01-01",
+        "value" : {
+          "lowRate" : 2.23,
+          "rate" : 3.81,
+          "thresholdKm" : 20000
+        }
+      },
+      {
+        "from" : "2026-01-01",
+        "value" : {
+          "lowRate" : 2.28,
+          "rate" : 3.94,
+          "thresholdKm" : 20000
+        }
+      }
+    ],
+    "payroll" : [
+      {
+        "from" : "2000-01-01",
+        "value" : {
+          "amPercent" : 8,
+          "atp" : [
+            {
+              "employee" : 99,
+              "employer" : 198,
+              "minHours" : 117
+            },
+            {
+              "employee" : 66,
+              "employer" : 132,
+              "minHours" : 78
+            },
+            {
+              "employee" : 33,
+              "employer" : 66,
+              "minHours" : 39
+            }
+          ],
+          "defaultHoursPerWeek" : 37,
+          "employerPercent" : 0,
+          "feriepengePercent" : 12.5,
+          "monthlyATPHours" : 160,
+          "scheme" : "dk"
+        }
+      }
+    ],
+    "vat" : {
+      "boxes" : [
+        {
+          "id" : "salgsmoms",
+          "label" : "Salgsmoms",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "momsVarekoebUdland",
+          "label" : "Moms af varekøb i udlandet",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "momsYdelseskoebUdland",
+          "label" : "Moms af ydelseskøb i udlandet",
+          "source" : "outputVat"
+        },
+        {
+          "id" : "koebsmoms",
+          "label" : "Købsmoms",
+          "source" : "inputVat"
+        },
+        {
+          "id" : "payable",
+          "label" : "Moms i alt (til betaling / til gode)",
+          "source" : "result"
+        },
+        {
+          "id" : "rubrikAVarer",
+          "label" : "Rubrik A, varer: varekøb uden moms fra andre EU-lande",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "rubrikAYdelser",
+          "label" : "Rubrik A, ydelser: ydelseskøb uden moms fra udlandet",
+          "source" : "baseDebit"
+        },
+        {
+          "id" : "rubrikBVarer",
+          "label" : "Rubrik B, varer: varesalg uden moms til andre EU-lande",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "rubrikBYdelser",
+          "label" : "Rubrik B, ydelser: ydelsessalg uden moms til andre EU-lande",
+          "source" : "baseCredit"
+        },
+        {
+          "id" : "rubrikC",
+          "label" : "Rubrik C: andre momsfrie leverancer, herunder eksport",
+          "source" : "baseCredit"
+        }
+      ],
+      "codes" : [
+        {
+          "boxes" : [
+            "salgsmoms"
+          ],
+          "code" : "S25",
+          "kind" : "output",
+          "name" : "Salgsmoms 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "koebsmoms"
+          ],
+          "code" : "K25",
+          "kind" : "input",
+          "name" : "Købsmoms 25 %",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "rubrikAVarer",
+            "momsVarekoebUdland",
+            "koebsmoms"
+          ],
+          "code" : "KV",
+          "kind" : "reverseChargeEUGoods",
+          "name" : "Moms af varekøb i udlandet (EU)",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "rubrikAYdelser",
+            "momsYdelseskoebUdland",
+            "koebsmoms"
+          ],
+          "code" : "KY",
+          "kind" : "reverseChargeEUServices",
+          "name" : "Moms af ydelseskøb i udlandet",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "rubrikAVarer",
+            "momsVarekoebUdland",
+            "koebsmoms"
+          ],
+          "code" : "KD",
+          "kind" : "reverseChargeDomestic",
+          "name" : "Omvendt betalingspligt, køb i Danmark",
+          "rate" : 0.25
+        },
+        {
+          "boxes" : [
+            "rubrikBVarer"
+          ],
+          "code" : "SEUV",
+          "kind" : "euSupplyGoods",
+          "name" : "Salg af varer til EU (Rubrik B varer)",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "rubrikBYdelser"
+          ],
+          "code" : "SEUY",
+          "kind" : "euSupplyServices",
+          "name" : "Salg af ydelser til EU (Rubrik B ydelser)",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "rubrikC"
+          ],
+          "code" : "SX",
+          "kind" : "exportSupply",
+          "name" : "Eksport uden for EU (Rubrik C)",
+          "rate" : 0
+        },
+        {
+          "boxes" : [
+            "rubrikC"
+          ],
+          "code" : "S0",
+          "kind" : "exempt",
+          "name" : "Momsfrit salg (Rubrik C)",
+          "rate" : 0
+        }
+      ],
+      "deadlineShift" : [
+        {
+          "from" : "2000-01-01",
+          "value" : "nextWeekday"
+        }
+      ],
+      "deadlines" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            {
+              "day" : 25,
+              "monthly" : true,
+              "monthsAfter" : 1
+            },
+            {
+              "day" : 1,
+              "monthsAfter" : 3
+            }
+          ]
+        }
+      ],
+      "holidays" : [
+        "2025-01-01",
+        "2025-04-17",
+        "2025-04-18",
+        "2025-04-20",
+        "2025-04-21",
+        "2025-05-29",
+        "2025-06-08",
+        "2025-06-09",
+        "2025-12-25",
+        "2025-12-26",
+        "2026-01-01",
+        "2026-04-02",
+        "2026-04-03",
+        "2026-04-05",
+        "2026-04-06",
+        "2026-05-14",
+        "2026-05-24",
+        "2026-05-25",
+        "2026-12-25",
+        "2026-12-26",
+        "2027-01-01",
+        "2027-03-25",
+        "2027-03-26",
+        "2027-03-28",
+        "2027-03-29",
+        "2027-05-06",
+        "2027-05-16",
+        "2027-05-17",
+        "2027-12-25",
+        "2027-12-26",
+        "2028-01-01",
+        "2028-04-13",
+        "2028-04-14",
+        "2028-04-16",
+        "2028-04-17",
+        "2028-05-25",
+        "2028-06-04",
+        "2028-06-05",
+        "2028-12-25",
+        "2028-12-26",
+        "2029-01-01",
+        "2029-03-29",
+        "2029-03-30",
+        "2029-04-01",
+        "2029-04-02",
+        "2029-05-10",
+        "2029-05-20",
+        "2029-05-21",
+        "2029-12-25",
+        "2029-12-26",
+        "2030-01-01",
+        "2030-04-18",
+        "2030-04-19",
+        "2030-04-21",
+        "2030-04-22",
+        "2030-05-30",
+        "2030-06-09",
+        "2030-06-10",
+        "2030-12-25",
+        "2030-12-26"
+      ],
+      "inputAccounts" : [
+        "7010",
+        "7015"
+      ],
+      "outputAccounts" : [
+        "7000",
+        "7020",
+        "7030"
+      ],
+      "rates" : [
+        {
+          "from" : "2000-01-01",
+          "value" : [
+            0.25,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "format" : 1,
+  "id" : "dk",
+  "published" : "2026-10-24",
+  "sources" : [
+    "Momsloven / Den juridiske vejledning D.A.: moms 25 %, frister (1. i 3. måned; månedlig 25.), weekend/helligdag → næste hverdag",
+    "skat.dk skema_koerselsgodtgoerelses2026.pdf: 3,94 / 2,28 kr. pr. km, grænse 20.000 km (2025: 3,81 / 2,23)",
+    "Renteloven §5 + Nationalbanken: udlånsrente 1,75 % fra 6.6.2025, 2,00 % fra 12.6.2026 → morarente 9,75 % / 10,00 %",
+    "Renteloven §9b: rykkergebyr højst 100 kr., højst 3 rykkere",
+    "borger.dk ATP-satser 2026 privat: 99 / 198 kr. (≥117 t), 66 / 132, 33 / 66",
+    "Momsbekendtgørelsen §58-59: fakturakrav; forenklet faktura op til 3.000 kr. inkl. moms"
+  ],
+  "version" : 1
+}

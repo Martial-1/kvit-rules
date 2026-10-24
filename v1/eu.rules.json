@@ -1,0 +1,44 @@
+{
+  "eu" : {
+    "exportGoodsNote" : "Export of goods – VAT exempt, Art. 146 Directive 2006/112/EC",
+    "exportServicesNote" : "Export of services – no VAT charged (supplied outside the EU)",
+    "intraCommunityNote" : "Intra-community supply – Art. 138 Directive 2006/112/EC",
+    "members" : [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK"
+    ],
+    "reverseChargeNote" : "Reverse charge – Art. 196 Directive 2006/112/EC"
+  },
+  "format" : 1,
+  "id" : "eu",
+  "published" : "2026-10-24",
+  "sources" : [
+    "Council Directive 2006/112/EC"
+  ],
+  "version" : 1
+}
